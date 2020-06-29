@@ -1,0 +1,201 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Lobster+Two:wght@700&family=Patua+One&family=Rubik&family=Sniglet&display=swap'); 
+
+*{
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+
+}
+
+:root{
+    --Snigle-font:"Sniglet", cursive;
+    --Rubic:"Rubic", cursive;
+    --Patua:"Patua One", cursive;
+    --Lobster:"Lobster". cursive;
+    --light-black : #2e2c2caf;
+    --bggradient:linear-gradient(
+        to bottom,
+        #dd2476, #ff512f;
+        --light-gray: rgba(255, 255, 255, 0)
+    )
+}
+
+header a{
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header{
+    background: rgb(156, 128, 68);
+    background: var(--bggradient);
+}
+
+header .nav-item:last-child{
+    padding-right: 10.5em;
+    
+}
+
+header .nav-item{
+    padding: 0,9em;
+}
+
+header .navbar-brand{
+    padding-left: 4rem;
+}
+
+header .nav-link:hover{
+    color: black;
+}
+
+header .row.col-md-5{
+    padding: 50px;
+}
+
+header .row.col-md-7{
+    padding: 60px !important;
+    padding-bottom: 35vmin ;
+}
+
+header .container .col-md-7 h1{
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p{
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: rgba(46, 34, 34, 0.514);
+}
+
+
+/* section-1 */
+
+.section-1{
+    padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .pray img{
+    opacity: 0.8;
+    
+    border-radius: 0.2em;
+    height: 100%;
+}
+
+.section-1 .row .col-md-6: last-child{
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: rgb(255, 255, 255);
+    border-radius: 7px;
+    text-align: left;
+    padding: 10vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 20px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubic);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4 em 0;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1em;
+}
+
+/* section 2 */
+
+.cover {
+    width: 100%;
+    height: 65vmin;
+    background: url("../src/children.jpg");
+}
+
+.cover .content{
+    background: rgba(0, 0, 0, 0.56);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content > h1{
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content > p{
+    font-family: var(--Rubic);
+    font-size: 2vmid;
+    color: #e5e5e5;
+}
+
+.purchase>h1{
+    padding-top: 15vmid;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+    box-shadow: blueviolet;
+    
+}
+
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+    
+    box-shadow: 0px 20px 42px rgba(0, 0, 0, 0.2);
+}
+
+.cards div{
+    padding-top: 8px;
+    margin: 5px;
+    border: 15px;
+}
+
+.cards .title{
+    background: rgba(28, 84, 129, 0.199);
+    padding: 1.4rem 2.5rem;
+}
+
+.card .card-text{
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+
+.card-body .age{
+    background: rgba(28, 84, 129, 0.199);;
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+} 
+
+.card-body .age>h1{
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+}
+
+/* footer 3 */
+
+footer{
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer input{
+    border: none !important;
+}
